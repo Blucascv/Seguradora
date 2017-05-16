@@ -3,7 +3,8 @@ package Seguradora;
 public class Contrato {
 	
 	Cliente cliente;
-	public float valor;
+	private float valorImovel;
+	private int tipoContrato;//1-Residencial; 2-Empresarial
 	
 	public Cliente getCliente() {
 		return cliente;
@@ -11,11 +12,17 @@ public class Contrato {
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
-	public float getValor() {
-		return valor;
+	public float getValorImovel() {
+		return valorImovel;
 	}
-	public void setValor(float valor) {
-		this.valor = valor;
+	public void setValorImovel(float valorImovel) {
+		this.valorImovel = valorImovel;
+	}
+	public int getTipoContrato() {
+		return tipoContrato;
+	}
+	public void setTipoContrato(int tipoContrato) {
+		this.tipoContrato = tipoContrato;
 	}
 	
 }
