@@ -2,8 +2,8 @@ package Seguradora;
 
 public class Cliente {
 	
-	public String nome;
-	public String end;
+	private String nome;
+	private String end;
 	
 	public String getNome() {
 		return nome;
